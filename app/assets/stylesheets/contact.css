@@ -1,0 +1,38 @@
+.keypad {
+    display: table;
+    margin: 10px auto;
+    padding: 0;
+    width: 300px;
+}
+
+.keypad .key-row {
+    display: table-row;
+    width: 100%
+}
+
+.keypad .key-row .key-cell {
+    display: table-cell;
+    padding: 2px;
+    width: 25%;
+}
+
+.keypad .key-row .key-cell button.key {
+    font-size: medium;
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+}
+
+.keypad .key-row .key-cell button .key-alt-fn {
+    font-size: small;
+    font-weight: normal;
+}
+
+.number-display {
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.contact-display {
+    margin-left: 400px;
+}
