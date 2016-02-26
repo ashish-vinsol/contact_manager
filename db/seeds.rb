@@ -5,6 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Contact.create(first_name: 'Ashish', last_name: 'Bhandari', contact_number: 9234567898)
-Contact.create(first_name: 'Sachin', last_name: 'Mittal', contact_number: 9877655679)
-Contact.create(first_name: 'Vinay', last_name: 'Mittal', contact_number: 9446678246)
+Contact.create(first_name: 'Ashish', last_name: 'Sam', contact_number: 9234567898)
+Contact.create(first_name: 'Sachin', last_name: 'Vinay', contact_number: 9877655679)
+Contact.create(first_name: 'Vinay', last_name: 'Sharma', contact_number: 9446678246)
